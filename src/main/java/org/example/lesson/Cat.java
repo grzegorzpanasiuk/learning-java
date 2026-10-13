@@ -1,24 +1,13 @@
 package org.example.lesson;
 
-public class Cat {
-    private int age;
-    private String colour;
-
+public class Cat extends Animal {
     public Cat(String colour, int age) {
-        this.colour = colour;
-        this.age = age;
+        super(age, colour);
     }
 
+    @Override
     public void giveVoice() {
         System.out.println("Meow meow");
     }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
 }
+
