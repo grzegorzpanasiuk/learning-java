@@ -1,11 +1,11 @@
 package org.example.lesson;
 
 public class Dog {
-    private String name;
     private int age;
+    private String colour;
 
-    public Dog(String name, int age) {
-        this.name = name;
+    public Dog(String colour, int age) {
+        this.colour = colour;
         this.age = age;
     }
 
@@ -13,8 +13,8 @@ public class Dog {
         System.out.println("Woof woof");
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setColour(String colour) {
+        this.colour = colour;
     }
 
     public void setAge(int age) {

@@ -1,21 +1,20 @@
 package org.example.lesson;
 
 public class Cat {
-
-    private String name;
     private int age;
+    private String colour;
 
-    public Cat(String name, int age) {
-        this.name = name;
+    public Cat(String colour, int age) {
+        this.colour = colour;
         this.age = age;
     }
 
-    public void giveVoice () {
+    public void giveVoice() {
         System.out.println("Meow meow");
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setColour(String colour) {
+        this.colour = colour;
     }
 
     public void setAge(int age) {

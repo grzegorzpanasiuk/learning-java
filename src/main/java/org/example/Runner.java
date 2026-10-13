@@ -7,11 +7,11 @@ import java.util.ArrayList;
 
 public class Runner {
     public static void main(String[] args) {
-        Cat cat = new Cat("Tom", 10);
-        cat.setName("Filemon");
+        Cat cat = new Cat("White", 5);
+        cat.setColour("Black");
         cat.giveVoice();
 
-        Dog dog = new Dog("Max", 5);
+        Dog dog = new Dog("Brown", 1);
         dog.giveVoice();
 
         ArrayList<Object> pets = new ArrayList<>();
